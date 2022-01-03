@@ -1,4 +1,4 @@
-       function blink(a){
+    /*   function blink(a){
     if(a.style.visibility=="visible"){
         a.style.visibility="hidden";
     }else{
@@ -90,4 +90,4 @@ function validateForm(){
     return false;
     }
     else{
-    confirm("votre demande est prise en charge !
+    confirm("votre demande est prise en charge !*/
