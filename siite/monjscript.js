@@ -131,24 +131,15 @@ function validateForm(){
                 return false;
             }
         }
-        function telValidate() { 
-
-            var letters = /^[A-Za-z]+$/;
-            var nom = document.getElementById("tel");
-            if(nom.value.match(letters) |nom.value!=+212 ) {
-                document.getElementById('telerreur').innerHTML="*le tel n'est pas valide *";
-           
-            return false;}
-            /*else if(nom.value!=+212){
-                document.getElementById('telerreur').innerHTML="*le tel n'est pas valide *";
-                document.getElementById("tel").style.backgroundColor="white";
-              //  document.getElementById("telerreur").style.visibility="hidden";
-        
-               // return false;*/
-               
-            else{
-                document.getElementById("telerreur").style.visibility="hidden";
-                return true;
+       function telValidate() { 
+            var tel= document.getElementById("tel");
+            //var letters = /^[A-Za-z]+$/;
+           // var nom = document.getElementById("prenom");
+            if(tel.value!=isNaN||tel.value!=+212) {
+            document.getElementById("tel").style.backgroundColor="white";
+            document.getElementById("telerreur").style.visibility="hidden";
+            return true;}
+            }
             }
         }
       //  function telValidate() { 
