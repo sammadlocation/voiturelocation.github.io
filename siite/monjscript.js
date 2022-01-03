@@ -1,4 +1,4 @@
-function blink(a){
+       function blink(a){
     if(a.style.visibility=="visible"){
         a.style.visibility="hidden";
     }else{
@@ -90,80 +90,4 @@ function validateForm(){
     return false;
     }
     else{
-    confirm("votre demande est prise en charge !, Voulez-vous le contiune?");
-    }
-    }
-    
-    //const kokiza=document.querySelector("kokiza");
-   // const kokizabot=document.querySelector("kokiza-bot");
-   // kokizabot.addEventListener("click", ()=>{
-     //   kokiza.classList.remove("active");
-       // localStorage.setItem("cookieBannerDisplay",true)
-    //});
-    //setTimeout(() => {
-     //   if(!localStorage.getItem("cookieBannerDisplay",true)){ 
-       // kokiza.classList.add("active");
-        //}
-    //}, 2000);  
-    function nomValidate() { 
-
-        var letters = /^[A-Za-z]+$/;
-        var nom = document.getElementById("nom");
-        if(nom.value.match(letters)) {
-        document.getElementById("nom").style.backgroundColor="white";
-        document.getElementById("nomerreur").style.visibility="hidden";
-        return true;
-        }
-        }
-        function prenomValidate() { 
-
-            var letters = /^[A-Za-z]+$/;
-            var nom = document.getElementById("prenom");
-            if(nom.value.match(letters)) {
-            document.getElementById("prenom").style.backgroundColor="white";
-            document.getElementById("prenomerreur").style.visibility="hidden";
-            return true;}
-        }
-        function telValidate() { 
-            var tel= document.getElementById("tel");
-            //var letters = /^[A-Za-z]+$/;
-           // var nom = document.getElementById("prenom");
-            if(tel.value!=isNaN||tel.value!=+212) {
-            document.getElementById("tel").style.backgroundColor="white";
-            document.getElementById("telerreur").style.visibility="hidden";
-            return true;}
-            }
-            function validateEmail(){
-                var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-                var email = document.getElementById("gmail");
-                if(email.value.match(mailformat)){
-              //  document.form.email.focus();
-                document.getElementById("gmail").style.backgroundColor="white";
-                document.getElementById("gmailerreur").style.visibility="hidden";
-                    return true;}
-                }
-                function DateValidate() { 
-                    var tel1= document.getElementById("date");
-                    var tel2= document.getElementById("date1");
-                    //var letters = /^[A-Za-z]+$/;
-                   // var nom = document.getElementById("prenom");
-                    if(tel1.value!=""||tel2.value!="") {
-                    document.getElementById("date").style.backgroundColor="white";
-                    document.getElementById("date1").style.backgroundColor="white";
-                    document.getElementById("prenderreur").style.visibility="hidden";
-                    return true;}
-                    }
-                    function age(){
-                        var gender = document.getElementsByName('age');
-                        var genValue = false;
-                        for(var j=0; j<gender.length;j++){
-                            if(gender[j].checked == true){
-                                genValue = true;    
-                              }
-                             }
-                            if(genValue){
-                              document.getElementById('age1').style="hidden";
-                            // setInterval('blink(age)',400);
-                               return false;
-                           }
-                    }
+    confirm("votre demande est prise en charge !
