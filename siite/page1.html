@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>NOS SERVICES</title>
+      <link rel= "stylesheet" href= "../main.css"/>
+      <link rel= "stylesheet" href= "body.css"/>
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+      <script src="monjscript.js"></script>
+     
+
+  </head>
+   <body>
+    <header>
+        <nav class="menu">
+              <div class="inneur"> 
+                 <div class="btm">
+                     <h1 class="logo"> location samad</h1> 
+                 </div>
+   
+                 <div class="btn">
+                      <a href="../index.html" class="link"><i class="far fa-home"></i> ACUEILL</a>
+                     <a href="page3.html"class="link"><i class="fas fa-car"></i> NOS VEIHCULLE</a>
+                     <a href="page1.html"class="link"><i class="fal fa-concierge-bell"></i> NOS SERVICES </a>
+                     <a href="page2.html"class="link"><i class="fas fa-address-card"></i> NOS CONTACTE</a> 
+                  </div>
+              </div> 
+         </nav>
+          </header>
+        <div class="formule">  
+             <div class="formulaire"  >
+              <p id="titre"style="visibility: visible;" >remplir cette formulaire pour peuvez benificier notre services.</p>
+             </div>
+             <form method="post" onsubmit = "return validateForm()" >
+            <div class="information">
+             <label for="nom" class="cord" >votre nom</label><input type="text" id="nom" name="nom" onchange="nomValidate()" >
+             <label for="prnom" class="cord" >votre prenom</label><input type="text" id="prenom" name="nom" onchange="prenomValidate()">
+             <label for="tel" class="cord" > votre  telephone</label><input type="tel" id="tel" name="tel" value="+212" onchange="telValidate()">
+             <label for="gmail" class="cord">Gmail</label><input type="email"  id="gmail" name="nom" onchange="validateEmail()"><br>
+            
+            </div>
+            <div class="alert1">
+            <span id="nomerreur"></span>
+            <span id="prenomerreur"></span>
+            <span id="telerreur"></span>
+            <span id="gmailerreur"></span>
+            </div>
+          <div class="information">
+             <label for="date" class="cord" >Date de prend</label><input type="date" id="date" name="date" >
+             <label for="date" class="cord" >Date de remise</label><input type="date" id="date1" name="date1" onchange="DateValidate()"><br>
+          </div>
+          <div class="alert2">
+            <span id="prenderreur"></span>
+            </div>
+          <div class="information" class="cord">
+          Votre age:
+             <input type="radio" name="age" id="-21" ><label for="-21"onchange="age()"> -21 ans</label>
+             <input type="radio" name="age" id="entre" ><label for="entre" onchange="age()">21-65 ans</label>
+             <input type="radio" name="age" id="+65" onchange="age()"><label for="+65"> +65 ans</label>
+          </div>
+          <div class="alert2">
+          <span id="age1"></span>
+          </div>
+         <div class="information">
+            <label for="auto" class="cord"> Choisi la voiture</label>
+            <select name="auto" id="auto">
+            <option value "dacia logan" >dacia logan </option>
+            <option value "clio4">clio4 </option>
+            <option value "peugeot"> peugeot</option>
+            <option value "ronge vogue">vogue </option>
+            <option value "bmw">bmw </option>
+            <option value "dacia duster"> dacia duster</option>
+           </select>
+         </div>
+         <div class="information">
+            <label  for "service" class="cord">si vous voulez autres services n'hesitez pas de l'ecris </label> <br/>
+              <textarea name ="service" id ="service" cols "100" rows "40"></textarea> 
+         </div>
+         <div class="information">
+         <input type ="submit" value =" Envoyer "  />
+         <input type ="reset" value ="Effacer toutes les données">
+         </div>
+         </form>
+         <hr>
+         <hr size="5px" width="100%"  color="#fff">
+         <hr>
+         <hr>
+        <div>
+            <img src="2020-12-15.webp" alt="!!!" width="100%" height="600px">
+        </div>
+        <hr size="5px" width="100%"  color="#fff">
+        <footer>
+            <div class="footer_info">
+                 <div class="footer_width about">
+                     <h2>About</h2>
+                  <p>
+                     Location samad est l'agence qui vous fournit les services de la location de voitures sur tout le Maroc 
+                     depuis plus de 15 ans. Nous ne sommes pas les seuls, mais nous sommes les meilleurs.
+
+
+                     </p>
+                     <div class="social-media">
+                         <ul>
+                             <li><a class="zeb" href="https://www.facebook.com/profile.php?id=100005988226351"><i class="fab fa-facebook"></i></a></li>
+                             <li><a class="zeb" href="https://instagram.com/abdessamadbariz_?utm_medium=copy_link"><i class="fab fa-instagram"></i></a></li>
+                         </ul>
+                     </div>
+                  </div>
+                 <div class="footer_width link">
+                    <h2>quick</h2>
+                    <ul>
+                      <li><a href="../index.html">home</a></li>
+                      <li><a href="page1.html"> nos services</a></li>
+                      <li><a href="page2.html"> contactes</a></li>
+                    </ul>
+                 </div>
+                 <div class="footer_width contact">
+                   <h2>  Contact</h2>
+                   <ul>
+                    <li>
+                            <span><i class="fas fa-at"></i>SAMAD location@gmail.ma</span>
+                    </li>
+                    <li>
+                          <span><i class="fas fa-phone-square-alt"></i>0613820006</span>
+                    </li>
+                   </ul>
+                 </div>
+              </div>
+               <div class="copy">
+                  <p>&copy; TOUT LES DROITS EST RESERVE</p>
+               </div>
+     </footer>
+
+
+             
+
+         
+        
+
+
+
+
+   </body>
+
+
+
+
+
+
+
+</html>
+
+
+
+
+
+

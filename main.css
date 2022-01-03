@@ -1,0 +1,217 @@
+
+
+.menu{
+    width: 100%;
+    height: 66px;
+    line-height: 66px;
+    background:#880e4f;
+  
+    
+}
+.logo{
+    margin: 0; padding: 0;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing:1px ;
+}
+.btm{
+    float: left;
+}
+.btn{
+    float: right;
+}
+.link{
+    text-decoration:none;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0; margin:0 10px ;
+}
+.title{
+  background-color:thistle;
+    color:#212121 ;
+    text-transform: uppercase;
+    text-align: center;
+    font: small-caps bold 24px/1 sans-serif;
+    font-family: 'lato';
+    font-weight: 900;
+    border : thick double ;
+   letter-spacing: 3px;
+}
+.btn a:hover{
+    color: rgb(111, 0, 255);
+    transition: all 1s;
+    background-color: rgb(194, 228, 224);
+}
+
+
+.photo {
+    width: 100%; height: 600px;
+    background-repeat: no-repeat;
+   background-image:url("siite/sarout.jpg") ;
+   background-size: 100%;
+}
+.cookie-container{
+position: fixed;
+bottom:-100%;
+left: 0px;
+right: 0px;
+padding: 16 32px;
+text-align: center;
+color:#3f51b5;
+font-family: 18px;
+box-shadow: 0 -2px 16 px ;
+font-size: 50px;
+background-color: #fff;
+transition: 400ms;
+}
+.cookie-btn{
+    background: rgb(12, 11, 11);
+    border: 0;
+    color: rgb(194, 228, 224);
+    padding: 12px 48px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.cookie-container.active{
+    bottom: 0% ;
+}
+.ana{
+    text-align: center; 
+    font-family: 'lato';
+    font-weight: 900;
+    text-transform: uppercase;
+    font: small-caps bold 24px/1 sans-serif;
+    color: #212121;
+}
+ .lin{
+    padding: 0; margin:0 40px ;
+}
+.auto{
+    text-align: center;
+    display: flex;
+    margin-left: 60px;
+    padding: 10px;
+}
+.auto :hover{
+  /*  transition: all 1s;
+    padding: 40px;
+   padding-top: 10px;
+   width: 20%;*/
+   transform: scale(1.09,1.09);
+}
+
+a{
+    text-decoration: none;
+    transition: 2s;
+    color: #fff;
+}
+ul,li {
+    list-style-type: none;
+}
+footer{
+    background-color:#880e4f;
+    color: #fff;
+}
+.footer_info{
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    padding: 50px 0;
+}
+.footer_info .footer_width{
+    padding: 0 15px;
+}
+.footer_info h2 {
+    margin: bottom 20px;;
+}
+.about , .contact {
+    width:40%;
+}
+.link{
+    width:20% ;
+}
+.social-media{
+    margin-top:30px ;
+}
+.social-media ul {
+    display: flex;
+}
+.link ul li {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.social-media ul li .zeb {
+   margin: 10px;
+}
+.link ul li a:hover{
+    display: block;
+    color: rgb(168, 24, 24);
+}
+.contact ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contact ul li span {
+    margin-right: 15px;
+}
+.social-media a{
+    background-color: thistle;
+    color: rgb(76, 19, 168);
+}
+ul li span i{
+    margin: 10px;
+}
+/* A PROPOS LA PAGE 1*/
+
+.formulaire{
+    text-align: center;
+    font-family: 'lato';
+    font-weight: 900;
+     padding: 50px;
+     text-transform: uppercase;
+     letter-spacing: 0.1rem;
+}
+.information{
+    text-align: center;
+    padding: 15px;
+}
+.cord{
+    margin: 10px;
+    color:#000;
+    font-family: 'lato';
+}
+.formule{
+    background-color: thistle;
+}
+.vogue{
+    background-color:thistle;
+    color:#13030c ;
+    text-transform: uppercase;
+    text-align: center;
+    font: small-caps bold 24px/1 sans-serif;
+    font-family: 'lato';
+    font-weight: 900;
+   letter-spacing: 3px;
+   padding: 20px;
+}
+/*NOS CONTACT*/
+figcaption p p{
+    color:rgb(168, 24, 24);
+}
+/*partie javascript*/
+.alert1 span{
+ margin-left: 170px;
+ color:rgb(126, 8, 8);
+}
+.alert2 {
+    text-align: center;
+    color:rgb(126, 8, 8);
+}
+
+
